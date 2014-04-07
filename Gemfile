@@ -5,14 +5,6 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-	gem 'rspec-rails', '2.0.0.beta.18'
-end
-
-group :test do
-	gem 'rspec', '2.0.0.beta.18'
-end
-
 group :production, :staging do
   gem "pg"
 end
@@ -30,11 +22,11 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
 group :development do
-	gem 'rspec-rails', '2.0.0.beta.18'
+	gem 'rspec-rails', "2.13.0"
 end
 
 group :test do
-	gem 'rspec', '2.0.0.beta.18'
+	gem 'rspec', "2.13.0"
 end
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
